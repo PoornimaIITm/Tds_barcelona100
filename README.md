@@ -1,4 +1,3 @@
-- An explanation of how you scraped the data
+- Data was scrapped from github using python function that formats the user and repository in the required structure, getting the information by authenticating Github API endpoints using the generated API tokens and using that token to call search/users with params "location:Barcelona+followers:>100", and repository details for each user using /users/{username}/repos endpoint.
 - The most interesting and surprising fact you found after analyzing the the data
 - An actionable recommendation for developers based on your analysis
-
